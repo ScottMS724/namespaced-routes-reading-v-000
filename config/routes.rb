@@ -6,8 +6,6 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :posts, only: %i[index show new create edit update]
-
 
   root 'posts#index'
 end
